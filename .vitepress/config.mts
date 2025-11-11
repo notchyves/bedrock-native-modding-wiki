@@ -13,7 +13,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Beginner\' Guide',
+        text: 'Beginner\'s Guide',
         items: [
           { text: 'Prerequisites', link: '/beginners-guide/prerequisites' },
           { text: 'Getting Started', link: '/beginners-guide/getting-started' }
