@@ -21,6 +21,13 @@ export default defineConfig({
           { text: 'Getting Started', link: '/beginners-guide/getting-started' },
           { text: 'Your First Hook', link: '/beginners-guide/your-first-hook' }
         ]
+      },
+      {
+        text: 'Tools',
+        collapsed: true,
+        items: [
+          { text: 'Clang', link: '/tools/clang' }
+        ]
       }
     ],
 
