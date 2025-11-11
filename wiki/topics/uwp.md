@@ -2,7 +2,7 @@
 Before 1.21.120, Minecraft was built with [UWP](https://learn.microsoft.com/en-us/windows/uwp/), which was Microsoft's attempt at unifying projects built for desktop Windows, Xbox, and Windows Phone under one platform. UWP is considered to be a deprecated platform (since October 2021), and was not ideal for developing games. These are possible reasons as to why Mojang decided to move the game to [GDK](/topics/gdk).
 
 ## Key differences
-Compared to a regular Win32 app, UWP apps:
+Compared to regular Win32 apps, UWP apps:
 - run in a sandbox, and cannot access files outside of their application data directories by default
 - use WinRT exclusively instead of the regular Win32 APIs
 
