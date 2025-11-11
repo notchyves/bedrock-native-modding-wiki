@@ -1,5 +1,5 @@
 # Clang
-Clang an alternative compiler to MSVC based on LLVM. For advanced users, Clang is recommended over MSVC for its superior code analysis and code generation, at the cost of increased compilation time. What makes Clang most appealing is `clang-cl`, which provides an MSVC-like front end to the compiler, effectively acting as a drop-in replacement for MSVC.
+[Clang](https://clang.llvm.org/) is an alternative compiler to MSVC based on LLVM. For advanced users, Clang is recommended over MSVC for its superior code analysis and code generation, at the cost of increased compilation time. What makes Clang most appealing is `clang-cl`, which provides an MSVC-like front end to the compiler, effectively acting as a drop-in replacement for MSVC.
 
 When configured through `clang-cl`, Clang generates code that is mostly ABI-compatible with MSVC, which makes it viable for Bedrock mods.
 

@@ -60,7 +60,7 @@ static DWORD WINAPI startup(LPVOID dll) {
 }
 ```
 
-Next, write the detour function which MinHook will redirect `getTimeOfDay` to.
+Next, write the detour function which `MinHook` will redirect `getTimeOfDay` to.
 
 ```cpp
 // MinHook will redirect Dimension::getTimeOfDay to this function, replacing its behavior with our own code.
@@ -73,7 +73,7 @@ static float hk_getTimeOfDay(void* _this, int32_t time, float alpha) {
 }
 ```
 
-Finally, we'll initialize MinHook after scanning for `getTimeOfDay`, create a hook that redirects it to `hk_getTimeOfDay`, and enable that hook.
+Finally, we'll initialize `MinHook` after scanning for `getTimeOfDay`, create a hook that redirects it to `hk_getTimeOfDay`, and enable that hook.
 Then we will exit `startup`. Because of the way DLL injection works, this will cause our client to remain injected until the game is closed.
 
 ```cpp
