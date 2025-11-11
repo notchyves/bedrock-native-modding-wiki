@@ -19,6 +19,7 @@ SetWindowText(handle, "My window title");
 
 // WinRT
 #include <winrt/windows.ui.viewmanagement.h>
+using namespace winrt;
 using namespace Windows::UI::ViewManagement;
 
 ApplicationView::GetForCurrentView().Title(title);
@@ -29,6 +30,8 @@ Most WinRT functions must be ran on the main thread:
 ```cpp
 #include <winrt/windows.applicationmodel.core.h>
 #include <winrt/windows.ui.core.h>
+
+using namespace winrt;
 using namespace Windows::ApplicationModel::Core;
 using namespace Windows::UI::Core;
 
