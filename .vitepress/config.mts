@@ -10,7 +10,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' }
     ],
-
     sidebar: [
       {
         text: 'Beginner\'s Guide',
@@ -47,10 +46,10 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/bedrock-native-modding/wiki' }
-    ]
+    ],
+    externalLinkIcon: true,
   },
   base: '/wiki/'
 })
